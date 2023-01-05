@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMS7630-005LF
+#/833710/565618/2.49/3/3/Schottky Diode
+DEF SMS7630-005LF D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "SMS7630-005LF" 750 200 50 H V L CNN
+F2 "SOT95P237X112-3N" 750 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/472/Surface_Mount_Schottky_Diodes_200041AD-708941.pdf" 750 0 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers Ls=1.5nH SOT-23 Series Pair" 750 -100 50 H I L CNN "Description"
+F5 "1.12" 750 -200 50 H I L CNN "Height"
+F6 "Skyworks" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SMS7630-005LF" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "873-SMS7630-005LF" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SMS7630-005LF?qs=JIGfGJf0HsZlJMJ2M1GtZg%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 750 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 750 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X K 2 0 -100 200 R 50 50 0 0 P
+X A/K 3 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,5 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+C1,C_0805_2012Metric,1,4.7u,
+"J1, J2",PinHeader_1x07_P2.54mm_Vertical,2,Conn_01x07_MountingPin,
+J3,U.FL_Hirose_U.FL-R-SMT-1_Vertical,1,Conn_Coaxial,
+U1,HOPERF_RFM9XW_SMD,1,RFM95W-868S2,
