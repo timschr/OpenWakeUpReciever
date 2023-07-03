@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TLV3201AIDBVR
-D 40ns, micro-Power, Rail-to-Rail Input, Single-Channel Comparator with Push-Pull Outputs
-K
-F http://www.ti.com/lit/gpn/tlv3201
-$ENDCMP
-#
-#End Doc Library

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SMS7630-005LF
-D Schottky Diodes & Rectifiers Ls=1.5nH SOT-23 Series Pair
-K
-F https://www.mouser.com/datasheet/2/472/Surface_Mount_Schottky_Diodes_200041AD-708941.pdf
-$ENDCMP
-#
-#End Doc Library
