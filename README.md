@@ -30,7 +30,7 @@ The first step is to order your PCB (Printed Circuit Board). This will serve as 
 
 2. Acquire Necessary Parts
 
-Next, you'll need to gather all the other parts required for this project. This includes an 868MHz antenna a nano power comparator, and the PIC12LF1552 Microcontroller Unit (MCU). You can refer to the [Hardware Guide][hardware/README.md] for a more detailed list and where to get these parts.
+Next, you'll need to gather all the other parts required for this project. This includes an 868MHz antenna a nano power comparator, and the PIC12LF1552 Microcontroller Unit (MCU). You can refer to the [Hardware Guide](hardware/README.md) for a more detailed list and where to get these parts.
 
 3. Assemble Your Receiver
 
