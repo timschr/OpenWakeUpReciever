@@ -8,9 +8,18 @@ Impedance matching is a crucial concept in electronics that helps ensure maximum
 
 The need for accurate impedance matching is why there isn't much room for variations in the PCB design. Trace width, PCB material, thickness, and the number of layers all play a part in determining the overall impedance. We've chosen a 4-layer PCB as it offers easier impedance control.
 
-## Ordering Your PCB
+## Transmitter
 
-You will need to order your PCB based on the provided production files. This guide will walk you through how to order it from JLCPCB, but you can also choose a different manufacturer as long as they have similar material characteristics.
+While our wake-up receiver (WuR) is all about listening for specific signals, it's important to remember that we also need a device to send these wake-up signals. 
+
+Any device that supports On-Off Keying (OOK) at 868MHz could be used as a transmitter. In my project, I opted for the RFM95W module. What's really neat about this module is its support for LoRa, a low-power, long-range communication protocol. This could open up some fascinating possibilities, such as setting up a remote sensor network miles away via LoRa, and using WuRs for local communication.
+
+Specifically, I used the [RFM95W shield for the Arduino Uno by Draguino](https://github.com/jgromes/RadioLib), which worked perfectly. This shield integrates well with the Arduino Uno, making it easy to create and transmit signals to our WuR.
+
+An added bonus of the RFM95W module is that it's supported by the RadioLib library. If you're interested in doing more radio work with Arduino, I highly recommend checking out [RadioLib](https://github.com/jgromes/RadioLib). It's an incredibly helpful resource, packed full of tools and examples for various types of radio communication.
+
+## Ordering Your PCB
+With that said, let's start building. You will first need to order your PCB based on the provided [production files](production/). This guide will walk you through how to order it from JLCPCB, but you can also choose a different manufacturer as long as they have similar material characteristics.
 
 ### How to Order from JLCPCB:
 
