@@ -23,6 +23,7 @@ This technology can be the brain of your next IoT project, enabling wireless sen
 ## How to get started
 Just head over to the [Hardware Guide](hardware/README.md) and go step by step from there.
 
+
 ## How to get done
 
 #### 1. Order Your PCB
