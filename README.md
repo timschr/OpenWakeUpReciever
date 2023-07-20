@@ -38,7 +38,7 @@ Once you have your PCB and all the necessary parts, you can start putting your r
 
 4. Program the MCU
 
-With your circuit assembled, it's time to program your MCU. You'll need to flash the provided software onto the PIC12LF1552 using suitable PIC microcontroller programming software. More details on how to do this can be found in the Software Guide.
+With your circuit assembled, it's time to program your MCU. You'll need to flash the provided software onto the PIC12LF1552 using suitable PIC microcontroller programming software. More details on how to do this can be found in the [Software Guide](software/README.md).
 
 5. Acquire a Transmitter
 
