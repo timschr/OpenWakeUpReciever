@@ -19,6 +19,7 @@ The wake-up receiver's job is to keep a power-hungry device asleep and only wake
 
 This technology can be the brain of your next IoT project, enabling wireless sensor networks to function efficiently, conserve energy, and respond swiftly. From setting up a smart home system that wakes up when you're near, to implementing precision agriculture that responds to real-time changes in the environment, WuR opens up a world of possibilities.
 
+![WuR_Mac](https://github.com/timschr/OpenWakeUpReciever/assets/56300785/1c0a9c46-251d-4546-9450-63c9c716b967)
 
 ## How to get started
 Just head over to the [Hardware Guide](hardware/README.md) and go step by step from there.
