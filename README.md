@@ -21,12 +21,13 @@ This technology can be the brain of your next IoT project, enabling wireless sen
 
 
 ## How to get started
+Just head over to the [Hardware Guide](hardware/README.md) and go step by step from there.
 
-Getting started with your wake-up receiver project involves a few steps. Here's a basic overview, more details in the hardware and software guide:
+## How to get done
 
 #### 1. Order Your PCB
 
-The first step is to order your PCB (Printed Circuit Board). This will serve as the base for your wake-up receiver, where you'll attach and connect all your components.
+The first step is to order your PCB (Printed Circuit Board). This will serve as the base for your wake-up receiver, where you'll attach and connect all your components. 
 
 #### 2. Acquire Necessary Parts
 
@@ -45,7 +46,6 @@ With your circuit assembled, it's time to program your MCU. You'll need to flash
 Finally, you'll need a transmitter capable of sending OOK (On-Off Keying) signals at 868MHz. This will be used to send the wake-up signal to your receiver. The only requirements are that the transmitter can operate at this frequency and use OOK modulation.
 
 ### Prerequisites
-
 
 #### Hardware:
   - PCB (Printed Circuit Board)
