@@ -50,4 +50,4 @@ For the breadboard:
 
 If you don't already have an 868MHz OOK transmitter, you'll need to purchase one. Once you have all your parts and your PCB, you can begin to put everything together on the breadboard.
 
-Now, with your hardware assembled, you can move on to flashing the software onto your microcontroller. Please refer to the [Software Guide](link_to_software_guide_here) for instructions on how to do this.
+Now, with your hardware assembled, you can move on to flashing the software onto your microcontroller. Please refer to the [Software Guide](software/README.md) for instructions on how to do this.
