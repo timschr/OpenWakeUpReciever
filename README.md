@@ -15,10 +15,10 @@
 Welcome to the world of Wake-up Receivers (WuRs)! 
 
 Have you ever wished to have a tiny, ultra-low power device that can awaken your sensor nodes from sleep mode only when needed, saving power and reducing latency? WuR is the game-changer you've been waiting for!
+The wake-up receiver's job is to keep a power-hungry device asleep and only wake it up when it's needed, saving energy.
 
 This technology can be the brain of your next IoT project, enabling wireless sensor networks to function efficiently, conserve energy, and respond swiftly. From setting up a smart home system that wakes up when you're near, to implementing precision agriculture that responds to real-time changes in the environment, WuR opens up a world of possibilities.
 
-With our open-source WuR project, you don't just get to learn about this fascinating technology, you get to tinker with it! So dive in, explore the potential, and let's wake up the future of IoT together!
 
 ## How to get started
 
@@ -46,36 +46,18 @@ Finally, you'll need a transmitter capable of sending OOK (On-Off Keying) signal
 
 ### Prerequisites
 
-Knowledge: 
-  - basic understanding of or willing to learn about electronics 
-Hardware:
+
+#### Hardware:
   - PCB (Printed Circuit Board)
   - All the parts
   - 868 OOK Tranceiver
   - Breadboard
     
-Tools:
+#### Tools:
 - PICKit3: Programming to for PIC microcontroller. With some effort you can also use a simple arduino for this. Explaine e.g. here [https://github.com/jaromir-sukuba/a-p-prog])
-- Soldering iron: You'll need this to attach components to your PCB.
+- Soldering iron: You'll need this to attach components to your PCB. Not needed when you order the PCB preassembled.
 - (Oscilloscope: This is optional but recommended for analyzing the signals in your circuit.)
 - (NanoVNA: This is optional but handy to analyze the quality of the mathching network)
-
-### Installation
-
-(Here, give a step-by-step guide to get a development environment running)
-
-## Documentation
-
-The design and testing documentation can be found in the /docs folder. The documentation includes the following:
-
-1. Design architecture
-2. Testing methodologies
-3. Comparison of different WuR implementations
-4. Future work & potential improvements
-
-## Usage
-
-(Here, provide examples of how to use the system. You can provide code snippets or screenshots)
 
 ## Contributing
 
@@ -83,11 +65,7 @@ We warmly welcome contributions to this project. If you'd like to contribute, pl
 
 We have a few guidelines for contributing, please check them out here: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-## FAQ
 
-(Questions with their answers go here. For example:)
-Q: What is a Wake-Up Receiver?
-A: A Wake-Up Receiver (WuR) is a low-power communication system that remains in a low-power standby mode until it receives a specific wireless signal to "wake up" and receive data. 
 
 ## License
 
