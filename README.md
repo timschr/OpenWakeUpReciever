@@ -23,7 +23,7 @@ This technology can be the brain of your next IoT project, enabling wireless sen
 
 ## How to get started
 Just head over to the [Hardware Guide](hardware/README.md) and go step by step from there.
-If you feel at any point that your need more background or explation why thing where done the way the are, please refer to the thesis this project is based on.
+If you feel at any point that your need more background or explation why thing where done the way the are, please refer to the [thesis](master_thesis_open_wake_up_receiver.pdf) this project is based on.
 
 ## How to get done
 
