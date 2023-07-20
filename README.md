@@ -20,9 +20,29 @@ This technology can be the brain of your next IoT project, enabling wireless sen
 
 With our open-source WuR project, you don't just get to learn about this fascinating technology, you get to tinker with it! So dive in, explore the potential, and let's wake up the future of IoT together!
 
-## Getting Started
+## How to get started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Getting started with your wake-up receiver project involves a few steps. Here's a basic overview, more details in the hardware and software guide:
+
+1. Order Your PCB
+
+The first step is to order your PCB (Printed Circuit Board). This will serve as the base for your wake-up receiver, where you'll attach and connect all your components.
+
+2. Acquire Necessary Parts
+
+Next, you'll need to gather all the other parts required for this project. This includes an 868MHz antenna a nano power comparator, and the PIC12LF1552 Microcontroller Unit (MCU). You can refer to the [Hardware Guide][hardware/README.md] for a more detailed list and where to get these parts.
+
+3. Assemble Your Receiver
+
+Once you have your PCB and all the necessary parts, you can start putting your receiver together. Attach the components to your PCB and connect them according to the circuit design. Remember to double-check all your connections to ensure they're correct and secure.
+
+4. Program the MCU
+
+With your circuit assembled, it's time to program your MCU. You'll need to flash the provided software onto the PIC12LF1552 using suitable PIC microcontroller programming software. More details on how to do this can be found in the Software Guide.
+
+5. Acquire a Transmitter
+
+Finally, you'll need a transmitter capable of sending OOK (On-Off Keying) signals at 868MHz. This will be used to send the wake-up signal to your receiver. The only requirements are that the transmitter can operate at this frequency and use OOK modulation.
 
 ### Prerequisites
 
