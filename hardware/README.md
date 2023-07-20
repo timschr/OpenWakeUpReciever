@@ -4,7 +4,7 @@ This guide will walk you through the hardware aspects of creating your wake-up r
 
 ## Background: Impedance Matching
 
-Impedance matching is a crucial concept in electronics that helps ensure maximum power transfer between components. In the context of our wake-up receiver, we need to ensure that the antenna and the circuitry on the PCB have the same impedance to prevent signal reflection and loss. 
+Impedance matching is a crucial concept in electronics that helps ensure maximum power transfer between components. In the context of our wake-up receiver, we need to ensure that the antenna and the circuitry on the PCB have the same impedance to prevent signal reflection and loss.  Trace width for the transmission line can be calculated with the [JLCPCB Impedance Caclulator](https://jlcpcb.com/pcb-impedance-calculator/) for different materials.
 
 The need for accurate impedance matching is why there isn't much room for variations in the PCB design. Trace width, PCB material, thickness, and the number of layers all play a part in determining the overall impedance. We've chosen a 4-layer PCB as it offers easier impedance control.
 
