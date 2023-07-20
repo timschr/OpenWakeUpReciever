@@ -36,6 +36,12 @@ Follow the steps below to upload the software:
 
 10. **Program the MCU**: Click on the `Make and Program Device Main Project` button (the icon with an arrow pointing towards the chip) to upload the compiled program onto your PIC12LF1552 microcontroller.
 
-And that's it! Your PIC12LF1552 should now be running your `wur_pic12lf1552_main.c` program. You can now proceed with the rest of your project setup. 
-
 If you encounter any issues, refer to the MPLAB X IDE's troubleshooting guide or Microchip's support forums.
+
+## Understanding the Software
+In this program, we're using a simple two-channel system to handle our wake-up signals that are connected to the `RA0` pin (data) and `RA2` pin (preamble). The first channel, `RA2`, is used to detect when a signal starts - this is called the preamble. When `RA2` detects a signal, it activates the second channel, `RA0`.
+
+`RA0` is where we receive the actual data of the signal. Once `RA2` has detected a signal and activated `RA0`, the program starts measuring the time between signals on `RA0`. This is our data - specifically, it's an 'address' that tells the microcontroller whether it should wake up or ignore the signal.
+
+## Adapting the code
+Keeping the program simple is critical because we're working with a small 8-bit microcontroller. This microcontroller isn't very powerful, so if the program gets too complex, it might start to slow down or experience delays. That's why we're just using these two channels and a timer to handle our wake-up signals.
