@@ -46,7 +46,19 @@ Finally, you'll need a transmitter capable of sending OOK (On-Off Keying) signal
 
 ### Prerequisites
 
-(Here, mention the software/hardware requirements and how to install them)
+Knowledge: 
+  - basic understanding of or willing to learn about electronics 
+Hardware:
+  - PCB (Printed Circuit Board)
+  - All the parts
+  - 868 OOK Tranceiver
+  - Breadboard
+    
+Tools:
+- PICKit3: Programming to for PIC microcontroller. With some effort you can also use a simple arduino for this. Explaine e.g. here [https://github.com/jaromir-sukuba/a-p-prog])
+- Soldering iron: You'll need this to attach components to your PCB.
+- (Oscilloscope: This is optional but recommended for analyzing the signals in your circuit.)
+- (NanoVNA: This is optional but handy to analyze the quality of the mathching network)
 
 ### Installation
 
